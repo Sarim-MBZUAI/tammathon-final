@@ -13,9 +13,11 @@ We built a **pet facial recognition system** capable of identifying pets from im
 - Backbone: Modified ResNet-50
 - Loss: ArcFace
 - Distance Metric: Cosine similarity
-- Accuracy: **82%**
+- Top-3 Accuracy: **82%**
 - Inference Time: ~3 minutes
 
+> 🔗 GitHub: [mapooon/PetFace](https://github.com/mapooon/PetFace?tab=readme-ov-file)  
+> 🔗 GitHub: [deepinsight/insightface](https://github.com/deepinsight/insightface)
 
 ---
 
@@ -29,7 +31,6 @@ We developed a binary classification model to identify whether a face photo comp
 - Imbalance Ratio: 1 (compliant) : 21 (non-compliant)
 - Evaluation Metric: **F1-Score**
 
-
 ---
 
 ### 🔹 Task 3: Vehicle Damage Captioning
@@ -41,27 +42,35 @@ This challenge focused on generating **natural language descriptions of vehicle 
 - Evaluation Metric: **METEOR Score**
 - Sample Output: _"Car image with dent and broken lamp."_
 
-
 ---
 
 ## 📊 Evaluation Metrics
 
 | Task | Metric         | Description                                     |
 |------|----------------|-------------------------------------------------|
-| 1    | Top 3 Accuracy | Correct within 3 predictions                    |
+| 1    | Top-3 Accuracy | Correct within 3 predictions                    |
 | 2    | F1-Score       | Balances precision and recall for imbalanced classes |
 | 3    | METEOR Score   | Measures quality of generated captions         |
 
 ---
 
+## 📚 References
 
-> 📚 Reference: [PetFace: A Benchmark for Fine-grained Pet Face Recognition](https://arxiv.org/abs/2007.11630)
-> 📚 Reference: [Deep Residual Learning for Image Recognition (ResNet)](https://arxiv.org/abs/1512.03385)
-> 📚 Reference: [ChatGPT (GPT-4) by OpenAI](https://openai.com/research/gpt-4)
+1. [PetFace: A Benchmark for Fine-grained Pet Face Recognition](https://arxiv.org/abs/2407.13555)  
+2. [PetFace GitHub Repository](https://github.com/mapooon/PetFace?tab=readme-ov-file)  
+3. [InsightFace GitHub Repository](https://github.com/deepinsight/insightface)  
+4. [Deep Residual Learning for Image Recognition (ResNet)](https://arxiv.org/abs/1512.03385)  
+5. [ChatGPT (GPT-4) by OpenAI](https://openai.com/research/gpt-4)  
 
-## Team Members
-Sarim Hashmi
-Muhammad Umer Sheikh
-Abdelrahman
-Alaa
+---
 
+## 👥 Team Members
+- **Sarim Hashmi**  
+- **Muhammad Umer Sheikh**  
+- **Abdelrahman**  
+- **Alaa**
+
+---
+
+## 📄 License
+This project is open-sourced under the MIT License.
