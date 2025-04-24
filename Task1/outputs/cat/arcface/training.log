@@ -1,0 +1,28 @@
+Training: 2025-04-24 07:32:16,005-rank_id: 0
+Training: 2025-04-24 07:32:24,959-: margin_list              (1.0, 0.5, 0.0)
+Training: 2025-04-24 07:32:24,959-: network                  r50
+Training: 2025-04-24 07:32:24,959-: resume                   False
+Training: 2025-04-24 07:32:24,959-: save_all_states          False
+Training: 2025-04-24 07:32:24,959-: output                   outputs/cat/arcface
+Training: 2025-04-24 07:32:24,959-: embedding_size           768
+Training: 2025-04-24 07:32:24,959-: sample_rate              1.0
+Training: 2025-04-24 07:32:24,959-: interclass_filtering_threshold0
+Training: 2025-04-24 07:32:24,959-: fp16                     True
+Training: 2025-04-24 07:32:24,959-: batch_size               128
+Training: 2025-04-24 07:32:24,959-: optimizer                sgd
+Training: 2025-04-24 07:32:24,959-: lr                       0.1
+Training: 2025-04-24 07:32:24,959-: momentum                 0.9
+Training: 2025-04-24 07:32:24,959-: weight_decay             0.0005
+Training: 2025-04-24 07:32:24,959-: verbose                  2000
+Training: 2025-04-24 07:32:24,959-: frequent                 10
+Training: 2025-04-24 07:32:24,959-: dali                     False
+Training: 2025-04-24 07:32:24,959-: gradient_acc             1
+Training: 2025-04-24 07:32:24,959-: seed                     2048
+Training: 2025-04-24 07:32:24,959-: num_workers              4
+Training: 2025-04-24 07:32:24,959-: basedir                  data/PetFace/images
+Training: 2025-04-24 07:32:24,959-: num_epoch                10
+Training: 2025-04-24 07:32:24,959-: warmup_epoch             0
+Training: 2025-04-24 07:32:24,959-: train_csv                /l/users/sarim.hashmi/Thesis/hackathon/train.csv
+Training: 2025-04-24 07:32:24,959-: total_batch_size         128
+Training: 2025-04-24 07:32:24,959-: warmup_step              0
+Training: 2025-04-24 07:32:24,959-: total_step               31640
